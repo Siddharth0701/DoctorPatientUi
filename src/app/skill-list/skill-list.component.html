@@ -1,0 +1,15 @@
+<h2>All Skills</h2>
+<div>
+    <div *ngFor="let skill of skills">
+        <p> 
+            Name:{{skill.name}}
+        </p>
+        <p>
+            Description:{{skill.description}}
+        </p>
+        <p>
+            <button type="button" (click)="delete(skill)">Delete</button>
+        </p>
+
+    </div>
+</div>
