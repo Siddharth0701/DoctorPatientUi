@@ -1,0 +1,15 @@
+<h2>Add new project</h2>
+<form>
+    <p>
+        Name: <input type="text" name="" id="" [formControl]="name">
+    </p>
+    <p>
+        Budget: <input type="text" [formControl]="budget">
+    </p>
+    <p>
+        Description:<input type="text" [formControl]="description">
+    </p>
+    <p>
+        <button type="button" (click)="save()"> Submit</button>
+    </p>
+</form>
